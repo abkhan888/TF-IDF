@@ -10,7 +10,7 @@ TF
 Number of times term 
 appears in document 
 Total number of terms in document 
-TF(t,d)= 
+TF= 
 Total number of terms in document d
 Number of times term t appears in document d
 ​
@@ -21,11 +21,6 @@ Inverse Document Frequency (IDF):
 Definition: Measures how important a term is across the entire corpus.
 Formula:
 IDF
-(
-𝑡
-,
-𝐷
-)
 =
 log
 ⁡
@@ -34,7 +29,7 @@ Total number of documents
 Number of documents containing term 
 𝑡
 )
-IDF(t,D)=log( 
+IDF=log( 
 Number of documents containing term t
 Total number of documents
 ​
