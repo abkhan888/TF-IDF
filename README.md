@@ -6,18 +6,10 @@ Term Frequency (TF):
 Definition: Measures how frequently a term appears in a document.
 Formula:
 TF
-(
-𝑡
-,
-𝑑
-)
 =
 Number of times term 
-𝑡
- appears in document 
-𝑑
+appears in document 
 Total number of terms in document 
-𝑑
 TF(t,d)= 
 Total number of terms in document d
 Number of times term t appears in document d
@@ -53,27 +45,10 @@ TF-IDF Score:
 
 Formula:
 TF-IDF
-(
-𝑡
-,
-𝑑
-,
-𝐷
-)
 =
 TF
-(
-𝑡
-,
-𝑑
-)
 ×
 IDF
-(
-𝑡
-,
-𝐷
-)
 
 TF-IDF(t,d,D)=TF(t,d)×IDF(t,D)
 
